@@ -1,0 +1,148 @@
+.col-margin-bottom-1 {
+  margin-bottom: 1em;
+}
+
+a {
+  cursor: pointer;
+}
+
+.navbar.main {
+  background: #2da1ce;
+  color: white;
+}
+
+.navbar.main .list.nav-link {
+  background: #3246d0;
+}
+
+.navbar.main a {
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.side-bar.col-sm-2 {
+  margin-left: 1em;
+  border-right: 1px solid #2da1ce;
+}
+
+#house-list.row {
+  margin-left: 0;
+}
+
+#house-list .row,
+#house-finalize-list {
+  margin-top: 2em;
+}
+
+.row h2,
+.categories a,
+#categories a {
+  color: #2da1ce;
+}
+
+#house-list a,
+#house-reveal-list a,
+#house-list .row > div {
+  color: #3246d0;
+}
+
+
+
+.container-fluid .row {
+  margin-left: 0px;
+}
+
+#house-list img,
+#house-reveal-list img,
+#house-finalize-list img {
+  width: 150px;
+  height: 150px;
+}
+
+.container-fluid .title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+#house-list .details,
+.container-fluid .title,
+#house-finalize-list a {
+  color: #2da1ce;
+}
+
+.house .details {
+  text-decoration: underline;
+}
+
+.time {
+  font-style: italic;
+}
+
+#house-finalize-list .row > div{
+  color: #e76e6e;
+}
+
+#house-details-page {
+  color: #2da1ce;
+  background-color: #e9ebef;
+}
+
+#house-details-page h4 {
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+#house-details-page h4.align {
+  margin-left: 15px;
+  font-style: italic;
+}
+
+#house-details-page #house-price {
+  color: #3246d0;
+}
+
+#house-details-page .bid-details,
+#house-details-page #house-desc {
+  padding: 2em;
+}
+
+#house-details-page #house-image {
+  padding: 2em 1em;
+  /*border: 1px solid #b2bcc8;*/
+  border-radius: 10px;
+  background-color: white;
+}
+
+#house-details-page h1 {
+  color: #2da1ce;
+}
+
+#house-details-page h2.house-name {
+  color: #3246d0;
+  margin-top: 0;
+  margin-bottom: 1em
+  /*font-size: 1.5em;*/
+}
+
+#house-details-page #house-auction-end {
+  color: #e76e6e;
+  font-style: italic;
+  font-size: 17px;
+}
+
+#house-details-page #house-reveal {
+  margin-top: 3em;
+}
+
+#house-details-page button.form-submit {
+  background-color: #3246d0;
+  color: white;
+}
+
+#house-details-page #house-desc {
+  padding: 2em;
+}

@@ -1,0 +1,2 @@
+RealEstate.deployed().then(function(f) {f.addHouseToStore('hobbit home' , 'hobbit homes', 'imglink', 'desclink', 1526901310, web3.toWei(1, 'ether'),0).then(function(f) {console.log(f)})})
+RealEstate.deployed().then(function(f) {f.houseIndex.call().then(function(f) {console.log(f)})})
