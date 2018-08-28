@@ -1,2 +1,9 @@
 RealEstate.deployed().then(function(f) {f.addHouseToStore('hobbit home' , 'hobbit homes', 'imglink', 'desclink', 1526901310, web3.toWei(1, 'ether'),0).then(function(f) {console.log(f)})})
 RealEstate.deployed().then(function(f) {f.houseIndex.call().then(function(f) {console.log(f)})})
+
+
+ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin '["*"]'
+ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods '["GET", "POST"]'
+ipfs config --json API.HTTPHeaders.Access-Control-Allow-Headers '["Authorization"]'
+ipfs config --json API.HTTPHeaders.Access-Control-Expose-Headers '["Location"]'
+ipfs config --json API.HTTPHeaders.Access-Control-Allow-Credentials '["true"]'
